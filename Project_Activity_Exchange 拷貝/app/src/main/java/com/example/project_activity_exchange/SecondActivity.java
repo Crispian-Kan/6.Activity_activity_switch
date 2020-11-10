@@ -13,7 +13,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
     }
-    public void btn_clickToA(View v){
+    public void btn_switchA(View v){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
